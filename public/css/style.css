@@ -298,9 +298,11 @@
     margin-top: 18px;
   }
   
-  .fundo-mobile {
+  .fundo-mobile,
+  .bottomBar {
     display: none;
   }
+  
   
   .fundo-mobile ion-icon {
     cursor: pointer;
@@ -363,7 +365,8 @@
       display: flex;
     }
   
-    .fundo-mobile {
+    .fundo-mobile,
+    .bottomBar {
       display: flex;
       padding: 0 20px;
       justify-content: space-between;
