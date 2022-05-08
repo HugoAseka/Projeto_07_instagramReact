@@ -3,9 +3,15 @@ import Navbar from "./Navbar"
 import Feed from "./Feed";
 import BottomBar from "./BottomBar";
 
+function App(){
+    return(
+        <div>
+            <Navbar />
+            <Feed />
+            <BottomBar />
+        </div>
+    )
+}
 
 
-
-reactDom.render(<Navbar />, document.querySelector(".navbar"))
-reactDom.render(<Feed />, document.querySelector(".feed"))
-reactDom.render(<BottomBar />, document.querySelector(".bottomBar"))
+reactDom.render(<App />, document.querySelector(".root"))

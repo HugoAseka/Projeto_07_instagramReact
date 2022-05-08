@@ -4,12 +4,14 @@ import Sidebar from "./Sidebar"
 
 export default function Feed(){
     return( 
-        <div class="corpo">
-            <div class="esquerda">
+        <div class="feed">
+            <div class="corpo">
+                <div class="esquerda">
                     <Stories />
                     <Posts />
+                </div>
+                <Sidebar />        
             </div>
-            <Sidebar />        
         </div>
     )
 }
